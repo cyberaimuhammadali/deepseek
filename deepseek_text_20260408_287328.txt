@@ -1,0 +1,51 @@
+beauty_salon_bot/
+├── .env.example
+├── .gitignore
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+├── README.md
+├── bot/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── handlers/
+│   │   ├── __init__.py
+│   │   ├── start.py
+│   │   ├── booking.py
+│   │   ├── profile.py
+│   │   └── admin.py
+│   ├── keyboards/
+│   │   ├── __init__.py
+│   │   └── inline.py
+│   ├── states/
+│   │   ├── __init__.py
+│   │   └── booking_states.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+├── backend/
+│   ├── __init__.py
+│   ├── main.py (FastAPI app)
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── endpoints.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── database.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   └── salon.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── booking_service.py
+│   │   └── ai_service.py
+│   ├── scraper/
+│   │   ├── __init__.py
+│   │   └── scraper.py
+│   └── utils/
+│       ├── __init__.py
+│       └── supabase_client.py
+└── frontend/
+    ├── index.html
+    ├── style.css
+    └── script.js
