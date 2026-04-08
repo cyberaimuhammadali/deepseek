@@ -1,7 +1,0 @@
-BOT_TOKEN=your_telegram_bot_token
-SUPABASE_URL=your_supabase_project_url
-SUPABASE_KEY=your_supabase_anon_key
-REDIS_URL=redis://localhost:6379
-WEBHOOK_URL=https://your-app.onrender.com/webhook
-CLICK_MERCHANT_ID=test
-PAYME_MERCHANT_ID=test
